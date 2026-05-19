@@ -4,22 +4,22 @@ cask "ripple" do
 
   on_macos do
     on_intel do
-      sha256 "ef349b8d9cf80f7b5c97e91c8825f40dfd5c17934f211ff17fa6e13f85497f52"
+      sha256 "75342c8b0ad7467a8a787de0bc496b4daa79be54399d5ebf37d4a9090664aeaf"
       url "https://github.com/urechandro/ripple/releases/download/v#{version}/ripple_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "d1a3b7eeb10ce75b5b4bd80ed01555dfc2220db6e42c3d511b4684ea79ff6b0e"
+      sha256 "9418d60e7ab46d2d42d1468b9507e22f5789155b2f01cbb4f160f3b3a41bfcfa"
       url "https://github.com/urechandro/ripple/releases/download/v#{version}/ripple_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "410dbd66ff7e6a4f11b2626f9b487c0e65ab9a4a31bef628821141d13162cf13"
+      sha256 "6c2367e761ce815aa2d928daba3bda4bbe7ae543791b6fc4e912cb515fd2861c"
       url "https://github.com/urechandro/ripple/releases/download/v#{version}/ripple_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "f5279761ac725fe6bc413e998d51b369f5330691bf9112771711553b3890ad94"
+      sha256 "c96cc8081512e92616e75d7f8a9552980173030bac0e89ebc3e1f077955a5523"
       url "https://github.com/urechandro/ripple/releases/download/v#{version}/ripple_Linux_arm64.tar.gz"
     end
   end
